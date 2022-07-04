@@ -17,10 +17,14 @@ public class PhoneBillCalculator {
         System.out.println("Enter the overage minutes:");
         overageMin = scanner.nextInt();
 
+        scanner.close();
+        
+        // functions call
         double ovgMinCharge = chargeMinutes(overageMin);
         double afterTax = calculateTax(ovgMinCharge + baseCost);
         double billState = billStatement(baseCost, ovgMinCharge, afterTax);
 
+        // print to user
         System.out.println("Your Bill Statement is:");
         System.out.println("Plan: $" + String.format("%.2f", baseCost));
         System.out.println("Overage: $" + String.format("%.2f", ovgMinCharge));
