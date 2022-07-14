@@ -21,8 +21,18 @@ Topics:
 1. Methods
 2. Variable scope
 
-Excersise:
+Exercise:
 "Phone Bill Calculator". Get user phone bill plan and overage minutes, then calculate the charge of ovarage minutes, add tax and then calculate total bill statement.
+
+### Chapter 6:
+
+Topics:
+1. Classes and objects
+2. Instantiating objects
+3. Objects as Method parameters and Return types
+4. Overloading methods within a class
+
+Exercise:
 
 ### Chapter 7:
 
